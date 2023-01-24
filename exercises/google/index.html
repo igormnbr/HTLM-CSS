@@ -7,25 +7,28 @@
     </head>
     <body class="container">
         <header>
-            <nav>
-                <a href="https://mail.google.com" target="_blank">Gmail</a> 
-                <a href="https://google.com/imghp" target="_blank">Imagens</a>
+            <nav class="header-nav">
+                <a class="nav-a" href="https://mail.google.com" target="_blank">Gmail</a> 
+                <a class="nav-a" href="https://google.com/imghp" target="_blank">Imagens</a>
                 <!-- <a href="#">Google Apps</a> -->
-                <a href="https://account.google.com">Conta</a>
+                <button class="btn login-btn" type="button">
+                    <a href="https://account.google.com" target="_blank">Fazer login</a>
+                </button>
             </nav>
         </header>
     <div>
         <img class="logo" src="Images/Google-title.png" alt="Google Title">
     </div>
     <div class="form">
-        <form action="https://www.google.com/search" method="get">
+        <form class="bar" action="https://www.google.com/search" method="get">
             <!-- <button type="submit"><img src="Images/Google-search.png" alt="Search Icon"></button> -->
             <input class="search-bar" type="text" value="">
+            <a href="#"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
         </form>
     </div>
     <div class="btns">
-        <input type="submit" value="Pesquisa Google">
-        <input type="submit" value="Estou com sorte">
+        <input class="btn src-btn" type="submit" value="Pesquisa Google">
+        <input class="btn src-btn" type="submit" value="Estou com sorte">
     </div>
         <footer>
             <div class="LF">

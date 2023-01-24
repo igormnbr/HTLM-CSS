@@ -7,22 +7,20 @@
 
 nav {
     float: right;
-
 }
 
 nav a{
     display: inline-block;
-    padding: 10px;
     margin: 8px;
     font-size: 13px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
-a:hover {
+.nav-a:hover {
     text-decoration: underline;
 }
 
@@ -57,10 +55,10 @@ footer div a {
 
 .logo{
     display: block;
-    width: 360px;
+    width: 300px;
     margin: auto;
     clear: both;
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 30px;
 }
 
@@ -69,17 +67,69 @@ footer div a {
 }
 
 .search-bar {
-    width: 700px;
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+}
+
+.search-bar:focus-within {
+    outline: none;
+}
+.bar {
+    width: 575px;
     line-height: 50px;
     border: 1px solid #e4e4e4;
     border-radius: 30px;
     border-width: 1px;
-    margin: 30px;
+    margin: 0 auto;
+}
+
+.bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc
+}
+
+.bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+
+.voice{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:10px;
 }
 
 .btns {
     text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
     color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-height: 27px;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer;  
+}
+
+.src-btn:hover {
+    border: 1px solid #cdcdcd;
+
+}
+.login-btn {
+    background-color: #1a73e8;
+    margin-right: 25px;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #145fc1;
 }
